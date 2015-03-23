@@ -1,10 +1,9 @@
-
 public class Punto2D {
-	
+
 	private float x;
 	private float y;
-	
-	public Punto2D(){
+
+	public Punto2D() {
 		super();
 	}
 
@@ -23,5 +22,13 @@ public class Punto2D {
 	public void setY(float y) {
 		this.y = y;
 	}
-	
+
+	public void moveX(float cantidad) {
+		x += cantidad;
+	}
+
+	public void moveY(float cantidad) {
+		y += cantidad;
+	}
+
 }
