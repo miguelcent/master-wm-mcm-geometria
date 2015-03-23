@@ -31,4 +31,11 @@ public class Punto2D {
 		y += cantidad;
 	}
 
+	public float distanciaPuntos(Punto2D punto){
+		float ret = 0;
+		
+		ret = (float) Math.sqrt((Math.pow(punto.getX(), 2)-Math.pow(this.getX(), 2))+(Math.pow(punto.getY(), 2)-Math.pow(this.getY(), 2)));
+		
+		return ret;
+	}
 }
