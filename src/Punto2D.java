@@ -31,4 +31,9 @@ public class Punto2D {
 		y += cantidad;
 	}
 
+	public void moverPunto(float offsetX, float offsetY) {
+		x += offsetX;
+		y += offsetY;
+	}
+
 }
