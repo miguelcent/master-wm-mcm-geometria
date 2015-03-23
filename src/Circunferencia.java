@@ -24,6 +24,9 @@ public class Circunferencia {
 		this.radio = radio;
 	}
 	
-	
+	public void moverCentro(float offsetX, float offsetY){
+		centro.moveX(offsetX);
+		centro.moveY(offsetY);
+	}
 	
 }
